@@ -267,7 +267,7 @@ Avoid unnecessary costs by deleting resources.
      az group delete --name "MyResourceGroup" --yes --no-wait
      ```
    - Explanation: `--yes` skips confirmation; `--no-wait` runs in the background.
-   - *Screenshot Placeholder*: Show the terminal output confirming deletion initiation.
+   - ![Image](https://github.com/user-attachments/assets/04caf991-3384-47d6-b463-189035aac069)
 
 ---
 
