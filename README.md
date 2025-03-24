@@ -184,7 +184,7 @@ Deploy a VM with a public IP for external access.
        --location "eastus"
      ```
    - Explanation: This creates an Ubuntu VM, auto-generates SSH keys, and assigns a public IP.
-   - *Screenshot Placeholder*: Show the terminal output with VM details (e.g., public IP address).
+   - ![Image](https://github.com/user-attachments/assets/b6f87739-2c05-4236-8bf0-7ef6b7c2c3a6)
 
 2. **Retrieve Public IP**:
    - Command:
@@ -196,7 +196,8 @@ Deploy a VM with a public IP for external access.
        --query "publicIps" \
        --output tsv
      ```
-   - *Screenshot Placeholder*: Display the terminal output with the VM’s public IP.
+   - ![image](https://github.com/user-attachments/assets/c688f6ef-3a69-4264-abee-03e82704cbdf)
+
 
 ---
 
