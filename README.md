@@ -1,11 +1,6 @@
-Below is a professional `README.md` file formatted in Markdown for your GitHub repository. It outlines a step-by-step guide using the Azure CLI to deploy a virtual machine with networking and monitoring, aligned with the AZ-900 (Microsoft Azure Fundamentals) learning objectives. The content is based on the provided Notion guide, expanded with detailed explanations, and includes placeholders for screenshots to enhance visual clarity for potential employers. Each step is designed to demonstrate your technical proficiency, attention to detail, and ability to document processes effectively.
-
----
-
 # Azure CLI Virtual Machine Deployment with Networking and Monitoring
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=Azure+CLI+VM+Deployment+Project)
-*Placeholder: Replace with a custom banner showcasing Azure CLI and VM deployment visuals.*
+---
 
 This repository provides a comprehensive, step-by-step guide to deploying a virtual machine (VM) in Microsoft Azure using the Azure Command-Line Interface (CLI). It includes configuring networking components and enabling monitoring, aligning with the **AZ-900 Microsoft Azure Fundamentals** learning objectives. This project is designed to showcase proficiency in Azure core services, CLI usage, networking, and monitoring setup—ideal for demonstrating cloud skills to potential employers.
 
@@ -23,10 +18,6 @@ This repository provides a comprehensive, step-by-step guide to deploying a virt
    - [Step 6: Enable Monitoring with Azure Monitor](#step-6-enable-monitoring-with-azure-monitor)
    - [Step 7: Test Connectivity](#step-7-test-connectivity)
    - [Step 8: Clean Up Resources](#step-8-clean-up-resources)
-4. [AZ-900 Learning Objectives Covered](#az-900-learning-objectives-covered)
-5. [Troubleshooting](#troubleshooting)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ---
 
@@ -39,8 +30,6 @@ This project demonstrates how to use the Azure CLI to:
 - Set up basic monitoring using Azure Monitor.
 - Test connectivity via SSH.
 - Clean up resources to avoid unnecessary costs.
-
-The guide is based on the [Notion Project 2 Guide](https://www.notion.so/Project-2-Deploy-a-Virtual-Machine-with-Networking-and-Monitoring-1bcd7770c29d808da9b2d7e9d1c45907) and tailored to reflect AZ-900 competencies, such as understanding Azure core services, networking, and monitoring.
 
 ---
 
