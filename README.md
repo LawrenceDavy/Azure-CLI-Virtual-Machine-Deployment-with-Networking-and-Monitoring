@@ -6,6 +6,17 @@ This repository provides a comprehensive, step-by-step guide to deploying a virt
 
 ---
 
+## AZ-900 Learning Objectives Covered
+
+This project aligns with AZ-900 domains:
+- **Cloud Concepts**: Demonstrates Azure’s IaaS model with VMs.
+- **Core Azure Services**: Uses resource groups, VMs, VNets, and NSGs.
+- **Security, Privacy, Compliance, and Trust**: Configures NSGs for secure access.
+- **Azure Pricing and Support**: Highlights resource cleanup to manage costs.
+- **Management Tools**: Leverages Azure CLI for automation and control.
+
+---
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Prerequisites](#prerequisites)
@@ -260,25 +271,6 @@ Avoid unnecessary costs by deleting resources.
 
 ---
 
-## AZ-900 Learning Objectives Covered
-
-This project aligns with AZ-900 domains:
-- **Cloud Concepts**: Demonstrates Azure’s IaaS model with VMs.
-- **Core Azure Services**: Uses resource groups, VMs, VNets, and NSGs.
-- **Security, Privacy, Compliance, and Trust**: Configures NSGs for secure access.
-- **Azure Pricing and Support**: Highlights resource cleanup to manage costs.
-- **Management Tools**: Leverages Azure CLI for automation and control.
-
----
-
-## Troubleshooting
-
-- **Login Fails**: Ensure `az login` succeeded and the correct subscription is set.
-- **SSH Connection Refused**: Verify NSG rules allow port 22 and the public IP is correct.
-- **Resource Creation Errors**: Check region availability and naming uniqueness.
-
----
-
 ## Contributing
 
 Contributions are welcome! Please:
@@ -289,16 +281,3 @@ Contributions are welcome! Please:
 5. Open a pull request.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### Notes for Implementation
-- **Screenshots**: Take each screenshot as described in the placeholders. Upload them to the `screenshots/` folder in your GitHub repo and update the README with actual links (e.g., `![Step 1 Output](screenshots/step1-output.png)`).
-- **Polish**: Add a `.github/workflows/` directory with a simple CI/CD pipeline (e.g., linting Markdown) to impress employers with automation skills.
-- **Customization**: Replace placeholder names (e.g., `MyResourceGroup`) with a unique naming convention tied to your personal brand (e.g., `JDoeRG2025`).
-
-This README is professional, detailed, and showcases your ability to document technical processes effectively—perfect for a portfolio aimed at future employers!
