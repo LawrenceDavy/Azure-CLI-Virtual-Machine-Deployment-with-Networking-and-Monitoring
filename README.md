@@ -132,7 +132,8 @@ An NSG controls inbound and outbound traffic.
        --name "MyNSG" \
        --location "eastus"
      ```
-   - *Screenshot Placeholder*: Display the terminal output confirming NSG creation.
+  ![Image](https://github.com/user-attachments/assets/8f93edf6-4868-4a14-ba4e-dfebbfdf7406)
+  ![Image](https://github.com/user-attachments/assets/4a7eb15a-9c0e-450c-9de5-cef3d943b33d)
 
 2. **Add a Rule to Allow SSH**:
    - Command:
@@ -148,7 +149,7 @@ An NSG controls inbound and outbound traffic.
        --direction "Inbound"
      ```
    - Explanation: Port 22 is opened for SSH access.
-   - *Screenshot Placeholder*: Show the terminal output for the rule creation.
+  ![Image](https://github.com/user-attachments/assets/50501cc3-daba-44bc-8ef4-838af9b84f0b)
 
 3. **Associate NSG with Subnet**:
    - Command:
@@ -159,7 +160,8 @@ An NSG controls inbound and outbound traffic.
        --name "MySubnet" \
        --network-security-group "MyNSG"
      ```
-   - *Screenshot Placeholder*: Capture the terminal output confirming the association.
+   - ![image](https://github.com/user-attachments/assets/0c61d0a7-a92e-4192-971f-b5fc0adae1d9)
+
 
 ---
 
