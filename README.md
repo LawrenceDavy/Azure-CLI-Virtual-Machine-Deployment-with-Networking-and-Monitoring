@@ -240,14 +240,14 @@ Verify the VM is accessible.
      ssh azureuser@<PUBLIC_IP>
      ```
    - Type `yes` to accept the host key, then log in.
-   - *Screenshot Placeholder*: Show the terminal after successful SSH login (e.g., Ubuntu welcome message).
+   - ![image](https://github.com/user-attachments/assets/be1fd455-d2d1-4074-b0cc-f3de6ed89dad)
 
 2. **Run a Test Command**:
    - Inside the VM:
      ```bash
      hostname
      ```
-   - *Screenshot Placeholder*: Capture the terminal output showing the VM’s hostname.
+   - ![Image](https://github.com/user-attachments/assets/e2c4d336-b375-49ad-8252-01c39bbc95f5)
 
 3. **Exit the VM**:
    - Command:
