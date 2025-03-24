@@ -213,7 +213,7 @@ Monitoring ensures VM performance visibility.
        --name "MyUbuntuVM"
      ```
    - Explanation: Captures boot logs for troubleshooting.
-   - *Screenshot Placeholder*: Show the terminal output confirming enablement.
+![Image](https://github.com/user-attachments/assets/6c5e139e-a78d-47c7-8f62-964b0c2fa612)
 
 2. **Install Azure Monitor Agent** (optional, requires extension):
    - Command:
@@ -226,7 +226,7 @@ Monitoring ensures VM performance visibility.
        --version "1.0"
      ```
    - Explanation: Collects performance metrics (CPU, memory, etc.).
-   - *Screenshot Placeholder*: Capture the terminal output confirming agent installation.
+   - ![Image](https://github.com/user-attachments/assets/7413ea5f-6f32-4309-9dca-d2a50a8d0905)
 
 ---
 
