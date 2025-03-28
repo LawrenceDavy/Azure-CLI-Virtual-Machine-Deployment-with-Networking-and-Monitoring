@@ -2,8 +2,7 @@
 
 ---
 
-This repository provides a comprehensive, step-by-step guide to deploying a virtual machine (VM) in Microsoft Azure using the Azure Command-Line Interface (CLI). It includes configuring networking components and enabling monitoring, aligning with the **AZ-900 Microsoft Azure Fundamentals** learning objectives. This project is designed to showcase proficiency in Azure core services, CLI usage, networking, and monitoring setup—ideal for demonstrating cloud skills to potential employers.
-
+This repository provides a comprehensive, step-by-step guide to deploying a virtual machine (VM) in Microsoft Azure using the Azure Command-Line Interface (CLI). It includes configuring networking components and enabling monitoring. This project is designed to showcase proficiency in Azure core services, CLI usage, networking, and monitoring setup—ideal.
 ---
 
 ## AZ-900 Learning Objectives Covered
