@@ -49,6 +49,12 @@ This project demonstrates how to use the Azure CLI to:
 
 ---
 
+## Architecture Diagram
+
+![Network Diagram](docs/Network%20Diagram.png)
+
+---
+
 ## Prerequisites
 
 Before starting, ensure you have the following:
