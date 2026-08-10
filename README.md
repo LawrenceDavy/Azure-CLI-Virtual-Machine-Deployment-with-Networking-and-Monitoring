@@ -1,28 +1,39 @@
 # Azure VM Deployment with Networking and Monitoring
 
-Independent end-to-end deployment of a Linux VM on Azure using Azure CLI.
+Independent end-to-end deployment of a Linux VM on Azure using the Azure CLI.
 
 ## What was done
-- Created resource group, VNet, subnet and Network Security Group
-- Deployed Linux VM
-- Restricted access with NSG rules
-- Enabled Azure Monitor for performance tracking and diagnostics
-- Full implementation notes and screenshots
+- Created resource group, Virtual Network (VNet), subnet and Network Security Group (NSG)
+- Deployed an Ubuntu 22.04 LTS virtual machine
+- Restricted inbound access with NSG rules (SSH only)
+- Enabled boot diagnostics and Azure Monitor agent for basic performance visibility
+- Tested SSH connectivity
+- Documented the full process, including troubleshooting and cost-control steps
+- Provided automation scripts for deployment and clean-up
 
 ## Purpose
-Demonstration of systematic infrastructure work and clear written documentation.  
-Not a data or analytics project.
+Demonstration of systematic infrastructure work, independent learning, and clear written documentation.  
+This remains an infrastructure project. Its value is proof of systems thinking and documentation discipline — not a data or analytics project.
+
+## Tools used
+- Azure CLI
+- Azure Portal (for quota checks and verification)
+- SSH
+- Bash (deploy and clean-up scripts)
+
+## AI assistance
+None used for the core deployment or documentation.
 
 ---
 
-## AZ-900 Learning Objectives Covered
+## AZ-900 Alignment
 
-This project aligns with AZ-900 domains:
-- **Cloud Concepts**: Demonstrates Azure’s IaaS model with VMs.
-- **Core Azure Services**: Uses resource groups, VMs, VNets, and NSGs.
-- **Security, Privacy, Compliance, and Trust**: Configures NSGs for secure access.
-- **Azure Pricing and Support**: Highlights resource cleanup to manage costs.
-- **Management Tools**: Leverages Azure CLI for automation and control.
+This project covered practical elements that map to several AZ-900 domains:
+- Cloud Concepts – IaaS with virtual machines
+- Core Azure Services – resource groups, VMs, VNets, NSGs
+- Security – NSG configuration for controlled access
+- Management Tools – Azure CLI
+- Cost awareness – explicit clean-up to avoid ongoing charges
 
 ---
 
