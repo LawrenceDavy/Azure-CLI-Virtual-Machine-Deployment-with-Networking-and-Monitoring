@@ -1,13 +1,17 @@
+# Azure VM Deployment with Networking and Monitoring
 
-# Re-validated: July 2026
+Independent end-to-end deployment of a Linux VM on Azure using Azure CLI.
 
----
+## What was done
+- Created resource group, VNet, subnet and Network Security Group
+- Deployed Linux VM
+- Restricted access with NSG rules
+- Enabled Azure Monitor for performance tracking and diagnostics
+- Full implementation notes and screenshots
 
-# Azure CLI Virtual Machine Deployment with Networking and Monitoring
-
----
-
-This repository provides a comprehensive, step-by-step guide to deploying a virtual machine (VM) in Microsoft Azure using the Azure Command-Line Interface (CLI). It includes configuring networking components and enabling monitoring. This project is designed to showcase proficiency in Azure core services, CLI usage, networking, and monitoring setup—ideal.
+## Purpose
+Demonstration of systematic infrastructure work and clear written documentation.  
+Not a data or analytics project.
 
 ---
 
